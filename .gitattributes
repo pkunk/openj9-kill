@@ -1,0 +1,14 @@
+.gitattributes  text
+.gitignore  text
+
+gradlew.bat  text eol=crlf
+gradlew  text
+
+*.java  text
+*.kts  text
+*.properties  text
+*.xml  text
+*.yml  text
+*.yaml  text
+
+*.jar  binary
