@@ -16,11 +16,11 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework:spring-jdbc")
     implementation("com.microsoft.azure:applicationinsights-web:2.6.2")
-    implementation("org.liquibase:liquibase-core")
-    implementation("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
+    testImplementation("org.liquibase:liquibase-core")
+    testImplementation("com.h2database:h2")
 }
 
 tasks.withType<Test> {

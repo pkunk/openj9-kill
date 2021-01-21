@@ -1,4 +1,4 @@
-package com.example.aireflection;
+package com.example.ojk;
 
 import liquibase.integration.spring.SpringLiquibase;
 import org.h2.jdbcx.JdbcDataSource;
